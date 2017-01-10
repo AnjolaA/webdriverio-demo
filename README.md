@@ -8,47 +8,54 @@
 Create folder webdriverio-demo
 
 CD into webdriverio-demo
-cd webdriverio-demo
 
-npm init y
+        cd webdriverio-demo
 
-npm install webdriverio --save-dev
+RUN command 
 
-./node_modules/.bin/wdio config
+        npm init -y
 
-Q: Where do you want to execute your tests?
-A: On my local machine
+        npm install webdriverio --save-dev
 
-Q: Which framework do you want to use?
-A: mocha
+        ./node_modules/.bin/wdio config
 
-Q: Shall I install the framework adapter for you?
-A: Yes (just press enter)
+    Q: Where do you want to execute your tests?
+    A: On my local machine
 
-Q: Where are your test specs located?
-A: ./test/specs/*/.js (just press enter)
+    Q: Which framework do you want to use?
+    A: mocha
 
-Q: Which reporter do you want to use?
-A: dot (just press space and enter)
+    Q: Shall I install the framework adapter for you?
+    A: Yes (just press enter)
 
-Q: Shall I install the reporter library for you?
-A: Yes (just press enter)
+    Q: Where are your test specs located?
+    A: ./test/specs/*/.js (just press enter)
 
-Q: Do you want to add a service to your test setup?
-A: none (just press enter, let’s skip this for simplicity)
+    Q: Which reporter do you want to use?
+    A: dot (just press space and enter)
 
-Q: Level of logging verbosity:
-A: silent (just press enter)
+    Q: Shall I install the reporter library for you?
+    A: Yes (just press enter)
 
-Q: In which directory should screenshots gets saved if a command fails?
-A: ./errorShots/ (just press enter)
+    Q: Do you want to add a service to your test setup?
+    A: none (just press enter, let’s skip this for simplicity)
 
-Q: What is the base url?
-A: http://localhost (just press enter)
+    Q: Level of logging verbosity:
+    A: silent (just press enter)
 
-npm install wdio-selenium-standalone-service --save-dev
+    Q: In which directory should screenshots gets saved if a command fails?
+    A: ./errorShots/ (just press enter)
 
+    Q: What is the base url?
+    A: http://localhost (just press enter)
+
+Install selenium standalone service 
+        npm install wdio-selenium-standalone-service --save-dev
+
+Install reporter 
  npm install wdio-spec-reporter --save-dev 
+
+ Add selenium service to config
 uncomment/ update/add standalone selenium
 services: ['selenium-standalone']
 
@@ -56,10 +63,11 @@ services: ['selenium-standalone']
 		marionette: true
 
 update package.json 
-"test": "echo \"Error: no test specified\" && exit 1"
-to
-"test": "wdio wdio.conf.js"
- Create Test Folder
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+    to
+    "test": "wdio wdio.conf.js"
+    Create Test Folder
 
 
 
