@@ -1,8 +1,8 @@
 # webdriverio-demo
 
 ## Prerequisite
--NodeJS
--Java
+* NodeJS
+* Java
 
 ## To start from Scratch
 Create folder webdriverio-demo
