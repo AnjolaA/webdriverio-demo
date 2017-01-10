@@ -9,15 +9,15 @@ Create folder webdriverio-demo
 
 CD into webdriverio-demo
 
-        cd webdriverio-demo
+    cd webdriverio-demo
 
 ### Install webdriverio and setup config 
 
-        npm init -y
+    npm init -y
 
-        npm install webdriverio --save-dev
+    npm install webdriverio --save-dev
 
-        ./node_modules/.bin/wdio config
+    ./node_modules/.bin/wdio config
 
 Answer with the responses below
 
@@ -54,19 +54,19 @@ A: http://localhost (just press enter)
 
 ### Install selenium standalone service
 
-        npm install wdio-selenium-standalone-service --save-dev
+    npm install wdio-selenium-standalone-service --save-dev
 
 ### Install reporter
 
-        npm install wdio-spec-reporter --save-dev 
+    npm install wdio-spec-reporter --save-dev 
 
 ### Add selenium service to config
 
 uncomment/ update/add standalone selenium
 services: ['selenium-standalone']
 
-        browserName: 'firefox',
-		marionette: true
+    browserName: 'firefox',
+    marionette: true
 
 ### Update package.json 
 
@@ -82,7 +82,7 @@ Save test files (*.js) in the specs folder
 
 ### Run tests
 
-            npm test
+    npm test
 
 
 
