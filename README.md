@@ -19,41 +19,44 @@ RUN command
 
         ./node_modules/.bin/wdio config
 
-    Q: Where do you want to execute your tests?
-    A: On my local machine
+Answer with the responses below
 
-    Q: Which framework do you want to use?
-    A: mocha
+Q: Where do you want to execute your tests?
+A: On my local machine
 
-    Q: Shall I install the framework adapter for you?
-    A: Yes (just press enter)
+Q: Which framework do you want to use?
+A: mocha
 
-    Q: Where are your test specs located?
-    A: ./test/specs/*/.js (just press enter)
+Q: Shall I install the framework adapter for you?
+A: Yes (just press enter)
 
-    Q: Which reporter do you want to use?
-    A: dot (just press space and enter)
+Q: Where are your test specs located?
+A: ./test/specs/*/.js (just press enter)
 
-    Q: Shall I install the reporter library for you?
-    A: Yes (just press enter)
+Q: Which reporter do you want to use?
+A: dot (just press space and enter)
 
-    Q: Do you want to add a service to your test setup?
-    A: none (just press enter, let’s skip this for simplicity)
+Q: Shall I install the reporter library for you?
+A: Yes (just press enter)
 
-    Q: Level of logging verbosity:
-    A: silent (just press enter)
+Q: Do you want to add a service to your test setup?
+A: none (just press enter, let’s skip this for simplicity)
 
-    Q: In which directory should screenshots gets saved if a command fails?
-    A: ./errorShots/ (just press enter)
+Q: Level of logging verbosity:
+A: silent (just press enter)
 
-    Q: What is the base url?
-    A: http://localhost (just press enter)
+Q: In which directory should screenshots gets saved if a command fails?
+A: ./errorShots/ (just press enter)
+
+Q: What is the base url?
+A: http://localhost (just press enter)
+
 
 Install selenium standalone service 
         npm install wdio-selenium-standalone-service --save-dev
 
 Install reporter 
- npm install wdio-spec-reporter --save-dev 
+        npm install wdio-spec-reporter --save-dev 
 
  Add selenium service to config
 uncomment/ update/add standalone selenium
