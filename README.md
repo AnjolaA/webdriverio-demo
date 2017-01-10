@@ -52,13 +52,16 @@ Q: What is the base url?
 A: http://localhost (just press enter)
 
 
-Install selenium standalone service 
+### Install selenium standalone service
+
         npm install wdio-selenium-standalone-service --save-dev
 
-Install reporter 
+### Install reporter
+
         npm install wdio-spec-reporter --save-dev 
 
- Add selenium service to config
+### Add selenium service to config
+
 uncomment/ update/add standalone selenium
 services: ['selenium-standalone']
 
@@ -70,7 +73,12 @@ update package.json
     "test": "echo \"Error: no test specified\" && exit 1"
     to
     "test": "wdio wdio.conf.js"
-    Create Test Folder
+
+    Create Test Folder named 'test'
+
+    Save test files in folder
+
+    run npm test
 
 
 
