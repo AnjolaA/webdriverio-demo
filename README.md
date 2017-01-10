@@ -11,7 +11,7 @@ CD into webdriverio-demo
 
         cd webdriverio-demo
 
-RUN command 
+### Install webdriverio and setup config 
 
         npm init -y
 
