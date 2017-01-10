@@ -68,17 +68,21 @@ services: ['selenium-standalone']
         browserName: 'firefox',
 		marionette: true
 
-update package.json 
+### Update package.json 
 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    change - "test": "echo \"Error: no test specified\" && exit 1"
     to
     "test": "wdio wdio.conf.js"
 
-    Create Test Folder named 'test' with a subfolder called 'specs'
+### Write Tests
 
-    Save test files in the specs folder
+Create Test Folder named 'test' with a subfolder called 'specs'
 
-    run npm test
+Save test files (*.js) in the specs folder
+
+### Run tests
+
+            npm test
 
 
 
