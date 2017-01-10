@@ -74,9 +74,9 @@ update package.json
     to
     "test": "wdio wdio.conf.js"
 
-    Create Test Folder named 'test'
+    Create Test Folder named 'test' with a subfolder called 'specs'
 
-    Save test files in folder
+    Save test files in the specs folder
 
     run npm test
 
