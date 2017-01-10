@@ -13,11 +13,15 @@ CD into webdriverio-demo
 
 ### Install webdriverio and setup config 
 
+Initiate Project
     npm init -y
 
+Install webdriverio
     npm install webdriverio --save-dev
 
+Setup config
     ./node_modules/.bin/wdio config
+
 
 Answer with the responses below
 
@@ -60,18 +64,18 @@ A: http://localhost (just press enter)
 
     npm install wdio-spec-reporter --save-dev 
 
-### Add selenium service to config
+### Add selenium service to config (wdio.conf.js)
 
-uncomment/ update/add standalone selenium
+uncomment/update/add standalone selenium
 
     services: ['selenium-standalone']
 
     browserName: 'firefox',
     marionette: true
 
-### Update package.json 
+### Update Test Script 
 
-change - "test": "echo \"Error: no test specified\" && exit 1" to
+update - "test": "echo \"Error: no test specified\" && exit 1" to
 
     "test": "wdio wdio.conf.js"
 
