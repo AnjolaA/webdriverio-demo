@@ -63,15 +63,16 @@ A: http://localhost (just press enter)
 ### Add selenium service to config
 
 uncomment/ update/add standalone selenium
-services: ['selenium-standalone']
+
+    services: ['selenium-standalone']
 
     browserName: 'firefox',
     marionette: true
 
 ### Update package.json 
 
-    change - "test": "echo \"Error: no test specified\" && exit 1"
-    to
+change - "test": "echo \"Error: no test specified\" && exit 1" to
+
     "test": "wdio wdio.conf.js"
 
 ### Write Tests
