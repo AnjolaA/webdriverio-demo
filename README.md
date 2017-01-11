@@ -70,8 +70,8 @@ uncomment/update/add standalone selenium
 
     services: ['selenium-standalone']
 
-    browserName: 'firefox',
-    marionette: true
+    browserName: 'chrome'
+
 
 ### Update Test Script 
 

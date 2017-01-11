@@ -44,8 +44,9 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'firefox',
-		marionette: true
+        browserName: 'chrome'
+        //,
+		//marionette: true
     }],
     //
     // ===================
