@@ -13,13 +13,16 @@ CD into webdriverio-demo
 
 ### Install webdriverio and setup config 
 
-Initiate Project
+#### Initiate Project
+
     npm init -y
 
-Install webdriverio
+#### Install webdriverio
+
     npm install webdriverio --save-dev
 
-Setup config
+#### Setup config
+
     ./node_modules/.bin/wdio config
 
 
